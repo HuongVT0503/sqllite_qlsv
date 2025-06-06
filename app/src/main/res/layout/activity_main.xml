@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nhập họ tên sinh viên -->
+    <EditText
+        android:id="@+id/edtHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Họ tên"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <!-- Nhập lớp -->
+    <EditText
+        android:id="@+id/edtLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lớp"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <!-- Nhập điểm -->
+    <EditText
+        android:id="@+id/edtDiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <!-- Nút thêm sinh viên -->
+    <Button
+        android:id="@+id/btnThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm sinh viên" />
+
+    <!-- Hiển thị danh sách sinh viên -->
+    <TextView
+        android:id="@+id/txtDanhSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sách sinh viên"
+        android:paddingTop="16dp"
+        android:textSize="16sp" />
+
+</LinearLayout>
